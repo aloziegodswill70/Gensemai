@@ -1,11 +1,12 @@
 
+import ClientWrapper from '@/Components/ClientWrapper';
 import './globals.css';
 
 
 export default function Home() {
   return (
     <div>
-      Home page
+      <ClientWrapper />
     </div>
   );
 }
