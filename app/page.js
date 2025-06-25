@@ -1,12 +1,10 @@
-
-import ClientWrapper from '@/Components/ClientWrapper';
 import './globals.css';
 
 
 export default function Home() {
   return (
     <div>
-      <ClientWrapper />
+      <h className="bg-black text-bold text-gray">Welcome to homepage</h>
     </div>
   );
 }
